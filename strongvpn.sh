@@ -156,7 +156,7 @@ mv ipsec.secrets /etc/ipsec.secrets
 
 
 echo "Restart Strongswan"
-systemctl restart strongswan
+sudo systemctl restart strongswan-starter
 
 # echo "Check Strongswan status"
 # systemctl status strongswan
